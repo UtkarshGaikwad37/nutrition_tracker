@@ -1,0 +1,270 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.inp {
+  width: 100%;
+  height: 44px;
+  outline: none;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+  font-size: 1rem;
+  transition: var(--transition);
+  background-color: white;
+}
+
+.inp:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.btn {
+  cursor: pointer;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.625rem 1.5rem;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  transition: var(--transition);
+  box-shadow: var(--shadow-md);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.link {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.link:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+.success {
+  background-color: var(--success);
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  opacity: 1;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+margin-top: 30px;
+padding: 5px;
+}
+
+.food-name {
+  padding-bottom: 9px;
+  font-size: x-large;
+}
+
+.food-details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 11px;
+}
+
+.detail {
+  margin: 5px;
+  padding: 5px;
+}
+
+.food-img {
+  width: 88vw;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 6px;
+}
+
+.food-image {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-track {
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  padding: 8px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}
+
+.btn-track {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-track:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 8px;
+  right: -6px;
+  transition: 0.5s;
+}
+
+.btn-track:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+.btn-track:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.cal {
+  width: 100%;
+  display: flex;
+  column-gap: 4%;
+  align-items: center;
+}
+
+.cal>.inp-search {
+  width: 65%;
+}
+
+.cont-diet {
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="date"] {
+  background-color: #0080ff;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: "Roboto Mono", monospace;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+::-webkit-calendar-picker-indicator {
+  background-color: #ffffff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.item {
+  background-color: var(--third-color);
+  padding: 7px;
+  width: 100%;
+  margin-bottom: 7px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cont-diet>ul:hover {
+  background-color: var(--second-color);
+}
+
+.totalNutrition {
+  background-color: var(--second-color);
+  padding: 16px;
+  margin-top: 10px;
+  width: 100%;
+  text-indent: 6px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.totalNutrition h1 {
+  margin-top: 0;
+}
+
+.totalNutrition>.details {
+  padding: 13px;
+  margin: 5px;
+  text-indent: 10px;
+  font-size: 17px;
+}
+
+.issue {
+  padding: 16px;
+  background-color: #ffe6e6;
+  border-radius: 4px;
+  color: #d9534f;
+  width: 92%;
+  text-align: -webkit-center;
+  margin: 10px;
+}
+
+.item-details {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+.item-name {
+  margin: 0;
+  font-size: 18px;
+}
+
+@keyframes slideFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-60px);
+    color: var(--third-color);
+  }
+
+  50% {
+    color: var(--third-color);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    color: var(--first-color);
+  }
+}
+
+.item {
+  animation: slideFromTop 2s ease-out forwards;
+}
+
+*/

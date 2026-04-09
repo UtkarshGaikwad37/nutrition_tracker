@@ -1,0 +1,75 @@
+.container-fluid.bg-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 4rem 2rem;
+}
+
+.card {
+  border: none;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  transition: var(--transition);
+  box-shadow: var(--shadow-md);
+}
+
+.card.bg-primary {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  color: white;
+}
+
+.card.bg-success {
+  background: linear-gradient(135deg, var(--success) 0%, var(--secondary-dark) 100%);
+  color: white;
+}
+
+.card.bg-info {
+  background: linear-gradient(135deg, var(--info) 0%, #3b82f6 100%);
+  color: white;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-button {
+  background: white;
+  color: var(--primary);
+  font-weight: 700;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  transition: var(--transition);
+}
+
+.home-button:hover {
+  background-color: var(--light);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}

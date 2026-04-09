@@ -1,0 +1,434 @@
+[
+  {
+    "name": "Grilled Chicken Salad",
+    "imageUrl": "https://example.com/grilled_chicken_salad.jpg",
+    "calories": 350,
+    "protein": 25,
+    "carbohydrates": 10,
+    "fat": 15,
+    "fiber": 5
+  },
+  {
+    "name": "Vegetable Stir Fry",
+    "imageUrl": "https://example.com/vegetable_stir_fry.jpg",
+    "calories": 250,
+    "protein": 8,
+    "carbohydrates": 30,
+    "fat": 12,
+    "fiber": 6
+  },
+  {
+    "name": "Salmon Fillet",
+    "imageUrl": "https://example.com/salmon_fillet.jpg",
+    "calories": 300,
+    "protein": 20,
+    "carbohydrates": 0,
+    "fat": 22,
+    "fiber": 0
+  },
+  {
+    "name": "Quinoa Salad",
+    "imageUrl": "https://example.com/quinoa_salad.jpg",
+    "calories": 200,
+    "protein": 6,
+    "carbohydrates": 35,
+    "fat": 5,
+    "fiber": 7
+  },
+  {
+    "name": "Turkey Sandwich",
+    "imageUrl": "https://example.com/turkey_sandwich.jpg",
+    "calories": 400,
+    "protein": 18,
+    "carbohydrates": 45,
+    "fat": 20,
+    "fiber": 4
+  },
+  {
+    "name": "Greek Yogurt",
+    "imageUrl": "https://example.com/greek_yogurt.jpg",
+    "calories": 150,
+    "protein": 12,
+    "carbohydrates": 10,
+    "fat": 8,
+    "fiber": 0
+  },
+  {
+    "name": "Egg Salad",
+    "imageUrl": "https://example.com/egg_salad.jpg",
+    "calories": 200,
+    "protein": 10,
+    "carbohydrates": 5,
+    "fat": 15,
+    "fiber": 2
+  },
+  {
+    "name": "Pasta Primavera",
+    "imageUrl": "https://example.com/pasta_primavera.jpg",
+    "calories": 350,
+    "protein": 12,
+    "carbohydrates": 40,
+    "fat": 18,
+    "fiber": 5
+  },
+  {
+    "name": "Spinach and Feta Omelette",
+    "imageUrl": "https://example.com/spinach_feta_omelette.jpg",
+    "calories": 280,
+    "protein": 16,
+    "carbohydrates": 8,
+    "fat": 20,
+    "fiber": 3
+  },
+  {
+    "name": "Fruit Smoothie",
+    "imageUrl": "https://example.com/fruit_smoothie.jpg",
+    "calories": 180,
+    "protein": 4,
+    "carbohydrates": 40,
+    "fat": 2,
+    "fiber": 6
+  },
+  {
+    "name": "Chicken and Vegetable Soup",
+    "imageUrl": "https://example.com/chicken_vegetable_soup.jpg",
+    "calories": 220,
+    "protein": 14,
+    "carbohydrates": 20,
+    "fat": 10,
+    "fiber": 4
+  },
+  {
+    "name": "Baked Sweet Potato",
+    "imageUrl": "https://example.com/baked_sweet_potato.jpg",
+    "calories": 180,
+    "protein": 2,
+    "carbohydrates": 40,
+    "fat": 0,
+    "fiber": 6
+  },
+  {
+    "name": "Tuna Salad",
+    "imageUrl": "https://example.com/tuna_salad.jpg",
+    "calories": 250,
+    "protein": 20,
+    "carbohydrates": 5,
+    "fat": 15,
+    "fiber": 2
+  },
+  {
+    "name": "Brown Rice Bowl",
+    "imageUrl": "https://example.com/brown_rice_bowl.jpg",
+    "calories": 320,
+    "protein": 10,
+    "carbohydrates": 45,
+    "fat": 8,
+    "fiber": 5
+  },
+  {
+    "name": "Hummus and Veggie Plate",
+    "imageUrl": "https://example.com/hummus_veggie_plate.jpg",
+    "calories": 220,
+    "protein": 6,
+    "carbohydrates": 25,
+    "fat": 12,
+    "fiber": 7
+  },
+  {
+    "name": "Roast Beef Sandwich",
+    "imageUrl": "https://example.com/roast_beef_sandwich.jpg",
+    "calories": 380,
+    "protein": 22,
+    "carbohydrates": 30,
+    "fat": 18,
+    "fiber": 3
+  },
+  {
+    "name": "Green Salad",
+    "imageUrl": "https://example.com/green_salad.jpg",
+    "calories": 120,
+    "protein": 4,
+    "carbohydrates": 15,
+    "fat": 6,
+    "fiber": 4
+  },
+  {
+    "name": "Frittata",
+    "imageUrl": "https://example.com/frittata.jpg",
+    "calories": 250,
+    "protein": 14,
+    "carbohydrates": 8,
+    "fat": 18,
+    "fiber": 3
+  },
+  {
+    "name": "Black Bean Soup",
+    "imageUrl": "https://example.com/black_bean_soup.jpg",
+    "calories": 230,
+    "protein": 12,
+    "carbohydrates": 30,
+    "fat": 8,
+    "fiber": 10
+  },
+  {
+    "name": "Chicken Caesar Salad",
+    "imageUrl": "https://example.com/chicken_caesar_salad.jpg",
+    "calories": 320,
+    "protein": 20,
+    "carbohydrates": 15,
+    "fat": 18,
+    "fiber": 4
+  },
+  {
+    "name": "Fruit Salad",
+    "imageUrl": "https://example.com/fruit_salad.jpg",
+    "calories": 150,
+    "protein": 2,
+    "carbohydrates": 35,
+    "fat": 1,
+    "fiber": 6
+  },
+  {
+    "name": "Oatmeal with Berries",
+    "imageUrl": "https://example.com/oatmeal_with_berries.jpg",
+    "calories": 220,
+    "protein": 6,
+    "carbohydrates": 40,
+    "fat": 4,
+    "fiber": 8
+  },
+  {
+    "name": "Grilled Veggie Wrap",
+    "imageUrl": "https://example.com/grilled_veggie_wrap.jpg",
+    "calories": 280,
+    "protein": 10,
+    "carbohydrates": 30,
+    "fat": 15,
+    "fiber": 6
+  },
+  {
+    "name": "Cottage Cheese with Pineapple",
+    "imageUrl": "https://example.com/cottage_cheese_pineapple.jpg",
+    "calories": 200,
+    "protein": 16,
+    "carbohydrates": 20,
+    "fat": 8,
+    "fiber": 2
+  },
+  {
+    "name": "Chicken Burrito Bowl",
+    "imageUrl": "https://example.com/chicken_burrito_bowl.jpg",
+    "calories": 380,
+    "protein": 22,
+    "carbohydrates": 40,
+    "fat": 15,
+    "fiber": 7
+  },
+  {
+    "name": "Whole Wheat Pancakes",
+    "imageUrl": "https://example.com/whole_wheat_pancakes.jpg",
+    "calories": 280,
+    "protein": 10,
+    "carbohydrates": 35,
+    "fat": 12,
+    "fiber": 5
+  },
+  {
+    "name": "Beef Stir Fry",
+    "imageUrl": "https://example.com/beef_stir_fry.jpg",
+    "calories": 320,
+    "protein": 18,
+    "carbohydrates": 25,
+    "fat": 15,
+    "fiber": 4
+  },
+  {
+    "name": "Miso Soup",
+    "imageUrl": "https://example.com/miso_soup.jpg",
+    "calories": 100,
+    "protein": 6,
+    "carbohydrates": 12,
+    "fat": 4,
+    "fiber": 2
+  },
+  {
+    "name": "Peanut Butter and Banana Sandwich",
+    "imageUrl": "https://example.com/peanut_butter_banana_sandwich.jpg",
+    "calories": 320,
+    "protein": 10,
+    "carbohydrates": 40,
+    "fat": 14,
+    "fiber": 6
+  },
+  {
+    "name": "Caprese Salad",
+    "imageUrl": "https://example.com/caprese_salad.jpg",
+    "calories": 200,
+    "protein": 10,
+    "carbohydrates": 8,
+    "fat": 14,
+    "fiber": 3
+  },
+  {
+    "name": "Broccoli and Cheese Stuffed Chicken",
+    "imageUrl": "https://example.com/broccoli_cheese_stuffed_chicken.jpg",
+    "calories": 300,
+    "protein": 28,
+    "carbohydrates": 10,
+    "fat": 15,
+    "fiber": 3
+  },
+  {
+    "name": "Lentil Soup",
+    "imageUrl": "https://example.com/lentil_soup.jpg",
+    "calories": 220,
+    "protein": 14,
+    "carbohydrates": 30,
+    "fat": 5,
+    "fiber": 12
+  },
+  {
+    "name": "Tofu and Vegetable Stir Fry",
+    "imageUrl": "https://example.com/tofu_vegetable_stir_fry.jpg",
+    "calories": 240,
+    "protein": 16,
+    "carbohydrates": 20,
+    "fat": 10,
+    "fiber": 8
+  },
+  {
+    "name": "Blueberry Muffin",
+    "imageUrl": "https://example.com/blueberry_muffin.jpg",
+    "calories": 180,
+    "protein": 4,
+    "carbohydrates": 25,
+    "fat": 8,
+    "fiber": 2
+  },
+  {
+    "name": "Steak Salad",
+    "imageUrl": "https://example.com/steak_salad.jpg",
+    "calories": 380,
+    "protein": 30,
+    "carbohydrates": 15,
+    "fat": 20,
+    "fiber": 4
+  },
+  {
+    "name": "Veggie Burger",
+    "imageUrl": "https://example.com/veggie_burger.jpg",
+    "calories": 320,
+    "protein": 18,
+    "carbohydrates": 30,
+    "fat": 15,
+    "fiber": 6
+  },
+  {
+    "name": "Pineapple Fried Rice",
+    "imageUrl": "https://example.com/pineapple_fried_rice.jpg",
+    "calories": 300,
+    "protein": 10,
+    "carbohydrates": 40,
+    "fat": 12,
+    "fiber": 5
+  },
+  {
+    "name": "Chickpea Salad",
+    "imageUrl": "https://example.com/chickpea_salad.jpg",
+    "calories": 220,
+    "protein": 10,
+    "carbohydrates": 25,
+    "fat": 10,
+    "fiber": 8
+  },
+  {
+    "name": "Turkey Meatballs",
+    "imageUrl": "https://example.com/turkey_meatballs.jpg",
+    "calories": 250,
+    "protein": 20,
+    "carbohydrates": 5,
+    "fat": 12,
+    "fiber": 1
+  },
+  {
+    "name": "Avocado Toast",
+    "imageUrl": "https://example.com/avocado_toast.jpg",
+    "calories": 220,
+    "protein": 6,
+    "carbohydrates": 20,
+    "fat": 15,
+    "fiber": 8
+  },
+  {
+    "name": "Mushroom Risotto",
+    "imageUrl": "https://example.com/mushroom_risotto.jpg",
+    "calories": 320,
+    "protein": 8,
+    "carbohydrates": 45,
+    "fat": 12,
+    "fiber": 3
+  },
+  {
+    "name": "Cucumber and Tomato Salad",
+    "imageUrl": "https://example.com/cucumber_tomato_salad.jpg",
+    "calories": 100,
+    "protein": 2,
+    "carbohydrates": 10,
+    "fat": 6,
+    "fiber": 3
+  },
+  {
+    "name": "Shrimp Scampi",
+    "imageUrl": "https://example.com/shrimp_scampi.jpg",
+    "calories": 280,
+    "protein": 22,
+    "carbohydrates": 15,
+    "fat": 14,
+    "fiber": 2
+  },
+  {
+    "name": "Bean and Cheese Quesadilla",
+    "imageUrl": "https://example.com/bean_cheese_quesadilla.jpg",
+    "calories": 300,
+    "protein": 12,
+    "carbohydrates": 30,
+    "fat": 15,
+    "fiber": 6
+  },
+  {
+    "name": "Eggplant Parmesan",
+    "imageUrl": "https://example.com/eggplant_parmesan.jpg",
+    "calories": 320,
+    "protein": 14,
+    "carbohydrates": 25,
+    "fat": 18,
+    "fiber": 5
+  },
+  {
+    "name": "Pork Tenderloin",
+    "imageUrl": "https://example.com/pork_tenderloin.jpg",
+    "calories": 280,
+    "protein": 24,
+    "carbohydrates": 5,
+    "fat": 16,
+    "fiber": 1
+  },
+  {
+    "name": "Cheese and Crackers",
+    "imageUrl": "https://example.com/cheese_crackers.jpg",
+    "calories": 200,
+    "protein": 10,
+    "carbohydrates": 15,
+    "fat": 12,
+    "fiber": 1
+  },
+  {
+    "name": "Pasta with Marinara Sauce",
+    "imageUrl": "https://example.com/pasta_marinara.jpg",
+    "calories": 300,
+    "protein": 8,
+    "carbohydrates": 45,
+    "fat": 10,
+    "fiber": 5
+  }
+]
