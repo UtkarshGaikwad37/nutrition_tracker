@@ -10,7 +10,7 @@ export default function Home() {
       <div className="container-fluid bg-gradient py-5">
         <div className="container">
           <div className="row">
-            <div className="col-md-8 mx-auto text-center text-white fade-in">
+            <div className="col-md-8 mx-auto text-center text-black fade-in">
               <h1>Welcome to Fitness Club</h1>
               <p>
                 Start your fitness journey with us. Whether you're a beginner or

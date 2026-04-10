@@ -4,7 +4,7 @@
   transition: var(--transition);
   padding: 0.1rem 0 !important;
   min-height: auto !important;
-  height: auto !important;
+  height: 5rem !important;
   line-height: 1.2;
 }
 
