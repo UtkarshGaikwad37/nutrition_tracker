@@ -13,31 +13,35 @@ connectDB();
 
 const app = express();
 
-/* -------------------- SECURITY MIDDLEWARE -------------------- */
+/* -------------------- SECURITY -------------------- */
 app.use(helmet());
 app.use(express.json());
 
-/* -------------------- CORS CONFIG FIX -------------------- */
-const allowedOrigins = process.env.ALLOWED_ORIGINS
-  ? process.env.ALLOWED_ORIGINS.split(",")
-  : ["http://localhost:5173"];
+/* -------------------- CORS FIX (CRITICAL) -------------------- */
+const allowedOrigins = [
+  "https://nutrition-tracker-tawny-eight.vercel.app",
+  "http://localhost:5173",
+];
 
 app.use(
   cors({
     origin: function (origin, callback) {
-      // allow requests like Postman / server-to-server
+      // allow requests with no origin (like Postman or mobile apps)
       if (!origin) return callback(null, true);
 
       if (allowedOrigins.includes(origin)) {
         return callback(null, true);
       } else {
-        return callback(new Error("CORS blocked: Not allowed"));
+        return callback(new Error("CORS blocked"));
       }
     },
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
   }),
 );
+
+// 🔥 IMPORTANT: Handle preflight requests
+app.options("*", cors());
 
 /* -------------------- RATE LIMIT -------------------- */
 app.use(apiLimiter);
@@ -49,9 +53,7 @@ app.use(trackRoutes);
 
 /* -------------------- HEALTH CHECK -------------------- */
 app.get("/", (req, res) => {
-  res.json({
-    message: "Nutrition Tracker API is running 🚀",
-  });
+  res.json({ message: "Nutrition Tracker API running 🚀" });
 });
 
 /* -------------------- 404 HANDLER -------------------- */
